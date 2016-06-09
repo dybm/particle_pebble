@@ -235,7 +235,7 @@ function convertTime(timestamp) {
   var s = "0" + date.getSeconds();
   var ampm = (h > 11) ? "pm" : "am";
   h = (h > 12) ? h-12 : h;
-  return Y + '-' + M.substr(-1, 2) + '-' + D.substr(-1, 2) + ' ' + h + ':' + m.substr(-1, 2) + ':' + s.substr(-1, 2) + ' ' + ampm;
+  return Y + '-' + M.substr(-2, 2) + '-' + D.substr(-2, 2) + ' ' + h + ':' + m.substr(-2, 2) + ':' + s.substr(-2, 2) + ' ' + ampm;
 }
 
 function showCard(title, subtitle, body) {
