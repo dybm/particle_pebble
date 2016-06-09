@@ -3,7 +3,7 @@
 
 ## Synopsis
 
-This project ties together the Pebble smartwatch and the Particle cloud, allowing you to easily monitor your Particle device data from your wrist. You can view all Particle devices (Electrons, Photons, Cores) associated with your account, check which devices are online, check which variables are being exposed through the cloud, and you can view each variables value.
+This project ties together the Pebble smartwatch and the Particle cloud, allowing you to easily monitor your Particle devices from your wrist. You can view all Particle devices (Electrons, Photons, Cores) associated with your account, check which devices are online, check which variables are being exposed through the cloud, and you can view each variables value.
 
 
 ## Installation
